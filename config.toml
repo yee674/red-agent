@@ -1,0 +1,14 @@
+# Streamlit 主题（改这里的颜色就能整体换配色）
+[theme]
+base = "dark"
+primaryColor = "#d8452f"
+backgroundColor = "#140608"
+secondaryBackgroundColor = "#231011"
+textColor = "#f5ebe6"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# 保存 .py 文件后自动重跑（kg.json / materials / assets 的自动刷新由 app.py 自己监听）
+runOnSave = true

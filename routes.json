@@ -1,0 +1,155 @@
+{
+  "note": "坐标为近似位置，仅用于研学导览示意；同一校区内的点位按方位做了小幅偏移，避免地标重叠。",
+  "pois": {
+    "school": {
+      "entity": "school",
+      "name": "湖南省立第一师范学校旧址",
+      "name_en": "Site of Hunan First Normal School",
+      "addr": "长沙市天心区书院路 356 号",
+      "addr_en": "356 Shuyuan Road, Tianxin District, Changsha",
+      "lat": 28.1786,
+      "lng": 112.9764,
+      "intro": "一师核心校区，前身是南宋城南书院。毛泽东在此求学、执教共八年，校训「实事求是」影响了他的一生。",
+      "intro_en": "The core campus of Hunan First Normal School, whose predecessor was Chengnan Academy of the Southern Song. Mao studied and taught here for eight years; the motto 'seeking truth from facts' shaped his life."
+    },
+    "class8": {
+      "entity": "class8",
+      "name": "第八班教室",
+      "name_en": "Classroom of Class Eight",
+      "addr": "第一师范旧址教学楼二层（第八班教室）",
+      "addr_en": "Second floor, teaching building of the school site",
+      "lat": 28.17872,
+      "lng": 112.9765,
+      "intro": "毛泽东在一师求学时的固定教室，第一行第四座是他的座位。",
+      "intro_en": "Mao's fixed classroom; the fourth seat in the first row was his."
+    },
+    "well": {
+      "entity": "well",
+      "name": "一师水井",
+      "name_en": "The Well on Campus",
+      "addr": "第一师范旧址院内水井",
+      "addr_en": "In the courtyard of the school site",
+      "lat": 28.17866,
+      "lng": 112.97626,
+      "intro": "毛泽东常年在此进行冷水浴，四季不断，是他「野蛮其体魄」的具体实践。",
+      "intro_en": "Mao took cold-water baths here all year round — a concrete practice of 'toughening the body'."
+    },
+    "pavilion": {
+      "entity": "pavilion",
+      "name": "君子亭",
+      "name_en": "Junzi Pavilion",
+      "addr": "第一师范旧址校园内",
+      "addr_en": "On the campus of the school site",
+      "lat": 28.17878,
+      "lng": 112.97634,
+      "intro": "毛泽东常在此读书，并与同学探讨国家大事。",
+      "intro_en": "Mao often read here and discussed national affairs with classmates."
+    },
+    "hall": {
+      "entity": "hall",
+      "name": "大礼堂",
+      "name_en": "Assembly Hall",
+      "addr": "第一师范旧址校园内",
+      "addr_en": "On the campus of the school site",
+      "lat": 28.1785,
+      "lng": 112.97652,
+      "intro": "校内举行集会、演讲及学术活动的重要场所。",
+      "intro_en": "An important venue for assemblies, speeches and academic activities."
+    },
+    "readingroom": {
+      "entity": "readingroom",
+      "name": "阅报室",
+      "name_en": "Newspaper Reading Room",
+      "addr": "第一师范旧址校园内",
+      "addr_en": "On the campus of the school site",
+      "lat": 28.17844,
+      "lng": 112.9763,
+      "intro": "毛泽东在一师期间每天必去的地方，在此读报、关心天下时政。",
+      "intro_en": "Where Mao went every day to read newspapers and follow current affairs."
+    },
+    "chengnan": {
+      "entity": "chengnan",
+      "name": "城南书院",
+      "name_en": "Chengnan Academy",
+      "addr": "长沙市天心区（第一师范旧址内）",
+      "addr_en": "Tianxin District, Changsha (within the school site)",
+      "lat": 28.1784,
+      "lng": 112.9766,
+      "intro": "一师前身，南宋始建，体现「千年学府、百年师范」的湖湘文脉。",
+      "intro_en": "The school's predecessor, founded in the Southern Song, embodying a thousand-year academy and a century-old normal school."
+    },
+    "xinmin": {
+      "entity": "xinmin",
+      "name": "新民学会成立会旧址",
+      "name_en": "Site of the Founding of the New People's Study Society",
+      "addr": "长沙市岳麓区溁湾镇刘家台子（蔡和森故居）",
+      "addr_en": "Liujiataizi, Yingwan Town, Yuelu District, Changsha",
+      "lat": 28.1932,
+      "lng": 112.9345,
+      "intro": "1918 年 4 月，毛泽东、蔡和森、萧子升等在此发起成立新民学会，萧子升任首任总干事，何叔衡是最年长的会员。",
+      "intro_en": "In April 1918 Mao, Cai Hesen and Xiao Zisheng founded the New People's Study Society here; Xiao was its first secretary-general and He Shuheng its oldest member."
+    }
+  },
+  "routes": [
+    {
+      "id": "classic",
+      "title": "半天经典线",
+      "title_en": "Half-day classic route",
+      "duration": "约 2 小时",
+      "duration_en": "about 2 hours",
+      "summary": "只走校本部，把「教室 — 水井 — 阅报室」串起来，看懂毛泽东在一师的日常。",
+      "summary_en": "Stay on campus and link the classroom, the well and the reading room to see Mao's daily life at the school.",
+      "pois": ["school", "class8", "well", "readingroom"],
+      "tasks": [
+        "在第八班教室找到毛泽东的座位（第一行第四座），拍一张照片。",
+        "在水井边说出「文明其精神，野蛮其体魄」的出处。",
+        "在阅报室记录一条 1919 年前后的时政新闻标题。"
+      ],
+      "tasks_en": [
+        "Find Mao's seat in the Class Eight classroom (fourth seat, first row) and take a photo.",
+        "Stand by the well and explain where 'civilise the spirit, toughen the body' comes from.",
+        "Write down one news headline from around 1919 at the reading room."
+      ]
+    },
+    {
+      "id": "deep",
+      "title": "一日深度线",
+      "title_en": "Full-day in-depth route",
+      "duration": "约 4 小时",
+      "duration_en": "about 4 hours",
+      "summary": "校本部全部点位 + 城南书院，从建筑格局读到湖湘文脉。",
+      "summary_en": "All campus points plus Chengnan Academy, reading Huxiang culture from the buildings themselves.",
+      "pois": ["school", "chengnan", "class8", "hall", "pavilion", "well", "readingroom"],
+      "tasks": [
+        "按建造年代给城南书院、大礼堂、第八班教室排序。",
+        "说出君子亭为什么适合「读书 + 议政」这两件事。",
+        "在校内找到「实事求是」相关的题刻或陈列。"
+      ],
+      "tasks_en": [
+        "Order Chengnan Academy, the assembly hall and the Class Eight classroom by age.",
+        "Explain why the Junzi Pavilion suited both reading and discussing state affairs.",
+        "Find an inscription or display related to 'seeking truth from facts' on campus."
+      ]
+    },
+    {
+      "id": "spirit",
+      "title": "精神传承线",
+      "title_en": "Spirit and legacy route",
+      "duration": "约 3 小时",
+      "duration_en": "about 3 hours",
+      "summary": "从校训到新民学会：看一师如何把「求学」变成「救国」。",
+      "summary_en": "From the school motto to the New People's Study Society: how study became a way of saving the nation.",
+      "pois": ["school", "pavilion", "readingroom", "xinmin"],
+      "tasks": [
+        "在旧址找到校训「实事求是」的出处说明。",
+        "对比「读有字之书」和「读无字之书」各指什么。",
+        "在新民学会旧址说出首任总干事与最年长会员分别是谁。"
+      ],
+      "tasks_en": [
+        "Find where the motto 'seeking truth from facts' comes from.",
+        "Compare 'reading books with words' and 'reading the book without words'.",
+        "At the Xinmin site, name its first secretary-general and its oldest member."
+      ]
+    }
+  ]
+}

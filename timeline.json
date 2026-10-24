@@ -1,0 +1,82 @@
+[
+  {
+    "year": 1913,
+    "entity": "heshuheng",
+    "label": "何叔衡考入湖南省立第四师范讲习科",
+    "text": "37 岁入学，是当时年龄最大的学生。",
+    "label_en": "He Shuheng enters the Fourth Normal School",
+    "text_en": "He enrolled at 37, the oldest student of his cohort."
+  },
+  {
+    "year": 1914,
+    "entity": "class8",
+    "label": "第四师范并入湖南省立第一师范",
+    "text": "毛泽东编入第八班，杨昌济讲授修身学。",
+    "label_en": "The Fourth Normal School merges into Hunan First Normal",
+    "text_en": "Mao was placed in Class Eight; Yang Changji taught self-cultivation."
+  },
+  {
+    "year": 1917,
+    "entity": "tiyuzhiyanjiu",
+    "label": "《体育之研究》发表",
+    "text": "以“二十八画生”笔名发表于《新青年》。",
+    "label_en": "'A Study of Physical Education' published",
+    "text_en": "Published in New Youth under the pen name 'Ershibahuasheng'."
+  },
+  {
+    "year": 1917,
+    "entity": "studytour",
+    "label": "与萧子升徒步游学",
+    "text": "不带分文，徒步五县，读“无字之书”。",
+    "label_en": "Walking study tour with Xiao Zisheng",
+    "text_en": "Penniless, they walked through five counties, 'reading the book without words'."
+  },
+  {
+    "year": 1918,
+    "entity": "xinmin_found",
+    "label": "新民学会成立",
+    "text": "毛泽东、蔡和森、萧子升等发起，何叔衡为最年长会员。",
+    "label_en": "The New People's Study Society is founded",
+    "text_en": "Initiated by Mao, Cai Hesen and Xiao Zisheng; He Shuheng was its oldest member."
+  },
+  {
+    "year": 1918,
+    "entity": "yangchangji",
+    "label": "杨昌济自北京来信",
+    "text": "传递留法勤工俭学消息，推动毛泽东等人赴京。",
+    "label_en": "Yang Changji writes from Beijing",
+    "text_en": "He sent news of the work-study programme in France, prompting Mao to travel to Beijing."
+  },
+  {
+    "year": 1919,
+    "entity": "xiangjiang",
+    "label": "《湘江评论》创刊",
+    "text": "毛泽东在长沙创办，传播新思想。",
+    "label_en": "The Xiangjiang Review is launched",
+    "text_en": "Founded by Mao in Changsha to spread new ideas."
+  },
+  {
+    "year": 1919,
+    "entity": "quzhang",
+    "label": "驱逐张敬尧运动",
+    "text": "青年毛泽东的重要政治实践。",
+    "label_en": "Movement to expel Zhang Jingyao",
+    "text_en": "An important political practice of the young Mao."
+  },
+  {
+    "year": 1920,
+    "entity": "heshuheng",
+    "label": "湖南共产党早期组织成立",
+    "text": "何叔衡与毛泽东共同发起。",
+    "label_en": "Early Communist organisation formed in Hunan",
+    "text_en": "Jointly initiated by He Shuheng and Mao Zedong."
+  },
+  {
+    "year": 1921,
+    "entity": "heshuheng",
+    "label": "出席中共一大",
+    "text": "何叔衡与毛泽东一同赴上海出席。",
+    "label_en": "Delegates to the CPC's First Congress",
+    "text_en": "He Shuheng and Mao Zedong travelled to Shanghai together."
+  }
+]

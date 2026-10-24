@@ -1,0 +1,167 @@
+[
+  {
+    "id": "q1",
+    "entity": "class8",
+    "q": "毛泽东在第一师范编入哪个班？",
+    "q_en": "Which class was Mao Zedong placed in at Hunan First Normal School?",
+    "options": ["第六班", "第八班", "第十班", "讲习科"],
+    "options_en": ["Class Six", "Class Eight", "Class Ten", "The training course"],
+    "answer": 1,
+    "explain": "1914 年第四师范并入一师后，毛泽东编入第八班，1918 年 6 月毕业。",
+    "explain_en": "After the Fourth Normal School merged into Hunan First Normal in 1914, Mao joined Class Eight and graduated in June 1918."
+  },
+  {
+    "id": "q2",
+    "entity": "heshuheng",
+    "q": "何叔衡 1913 年入学时年龄多大？",
+    "q_en": "How old was He Shuheng when he enrolled in 1913?",
+    "options": ["27 岁", "32 岁", "37 岁", "42 岁"],
+    "options_en": ["27", "32", "37", "42"],
+    "answer": 2,
+    "explain": "他 37 岁入讲习科，是当时年龄最大的学生，也是新民学会最年长的会员。",
+    "explain_en": "He entered the training course at 37, the oldest student of his cohort and the oldest member of the study society."
+  },
+  {
+    "id": "q3",
+    "entity": "yangchangji",
+    "q": "毛泽东称哪位老师是「印象最深的教员」？",
+    "q_en": "Which teacher did Mao call 'the teacher who impressed me most'?",
+    "options": ["徐特立", "黎锦熙", "杨昌济", "萧子升"],
+    "options_en": ["Xu Teli", "Li Jinxi", "Yang Changji", "Xiao Zisheng"],
+    "answer": 2,
+    "explain": "杨昌济教修身学，初识即赞其「资质俊秀若此」，后来成为毛泽东的岳父。",
+    "explain_en": "Yang Changji taught self-cultivation, praised Mao's 'fine natural gifts' at first meeting, and later became his father-in-law."
+  },
+  {
+    "id": "q4",
+    "entity": "tiyuzhiyanjiu",
+    "q": "《体育之研究》1917 年发表在哪份刊物上？",
+    "q_en": "Where was 'A Study of Physical Education' published in 1917?",
+    "options": ["《新青年》", "《湘江评论》", "《每周评论》", "《大公报》"],
+    "options_en": ["New Youth", "Xiangjiang Review", "Weekly Review", "Ta Kung Pao"],
+    "answer": 0,
+    "explain": "1917 年以「二十八画生」笔名发表于《新青年》。",
+    "explain_en": "It appeared in New Youth in 1917 under the pen name 'Ershibahuasheng'."
+  },
+  {
+    "id": "q5",
+    "entity": "tiyuzhiyanjiu",
+    "q": "毛泽东发表《体育之研究》时使用的笔名是？",
+    "q_en": "What pen name did Mao use for 'A Study of Physical Education'?",
+    "options": ["子任", "二十八画生", "润之", "泽东"],
+    "options_en": ["Ziren", "Ershibahuasheng", "Runzhi", "Zedong"],
+    "answer": 1,
+    "explain": "「二十八画生」是「毛泽东」三个字繁体的笔画数。",
+    "explain_en": "'Ershibahuasheng' refers to the 28 strokes of the characters in his name."
+  },
+  {
+    "id": "q6",
+    "entity": "xinmin_found",
+    "q": "新民学会成立于哪一年？",
+    "q_en": "In which year was the New People's Study Society founded?",
+    "options": ["1917 年", "1918 年", "1919 年", "1920 年"],
+    "options_en": ["1917", "1918", "1919", "1920"],
+    "answer": 1,
+    "explain": "1918 年由毛泽东、蔡和森、萧子升等人发起，是湖南反帝反封建的核心社团。",
+    "explain_en": "Founded in 1918 by Mao, Cai Hesen and Xiao Zisheng; it was a core anti-imperialist society in Hunan."
+  },
+  {
+    "id": "q7",
+    "entity": "xiangjiang",
+    "q": "《湘江评论》创刊于哪一年？",
+    "q_en": "When was the Xiangjiang Review launched?",
+    "options": ["1917 年", "1918 年", "1919 年", "1921 年"],
+    "options_en": ["1917", "1918", "1919", "1921"],
+    "answer": 2,
+    "explain": "1919 年毛泽东在长沙创办《湘江评论》，传播新思想。",
+    "explain_en": "Mao founded it in Changsha in 1919 to spread new ideas."
+  },
+  {
+    "id": "q8",
+    "entity": "xiaozisheng",
+    "q": "新民学会的首任总干事是谁？",
+    "q_en": "Who was the first secretary-general of the New People's Study Society?",
+    "options": ["毛泽东", "蔡和森", "萧子升", "何叔衡"],
+    "options_en": ["Mao Zedong", "Cai Hesen", "Xiao Zisheng", "He Shuheng"],
+    "answer": 2,
+    "explain": "萧子升任首任总干事，曾与毛泽东徒步游学五县。",
+    "explain_en": "Xiao Zisheng served as first secretary-general and once walked through five counties with Mao."
+  },
+  {
+    "id": "q9",
+    "entity": "shishi",
+    "q": "第一师范的校训是？",
+    "q_en": "What is the motto of Hunan First Normal School?",
+    "options": ["自强不息", "实事求是", "经世致用", "尊师重道"],
+    "options_en": ["Strive unceasingly", "Seek truth from facts", "Practical statecraft", "Respect teachers"],
+    "answer": 1,
+    "explain": "「实事求是」原为一师校训，也是毛泽东思想路线的核心历史源头。",
+    "explain_en": "'Seek truth from facts' was the school motto and a core historical source of Mao's line of thinking."
+  },
+  {
+    "id": "q10",
+    "entity": "chengnan",
+    "q": "湖南省立第一师范的前身是？",
+    "q_en": "What was the predecessor of Hunan Provincial First Normal School?",
+    "options": ["岳麓书院", "城南书院", "时务学堂", "船山学社"],
+    "options_en": ["Yuelu Academy", "Chengnan Academy", "Shiwu School", "Chuanshan Society"],
+    "answer": 1,
+    "explain": "前身为南宋城南书院，所以有「千年学府、百年师范」之说。",
+    "explain_en": "Its predecessor was Chengnan Academy of the Southern Song — hence 'a thousand-year academy, a century-old normal school'."
+  },
+  {
+    "id": "q11",
+    "entity": "studytour",
+    "q": "1917 年与毛泽东一起徒步游学的是谁？",
+    "q_en": "Who walked across the countryside with Mao on the 1917 study tour?",
+    "options": ["蔡和森", "何叔衡", "萧子升", "徐特立"],
+    "options_en": ["Cai Hesen", "He Shuheng", "Xiao Zisheng", "Xu Teli"],
+    "answer": 2,
+    "explain": "两人不带分文，徒步五县，读「无字之书」。",
+    "explain_en": "The two set out penniless and walked through five counties, 'reading the book without words'."
+  },
+  {
+    "id": "q12",
+    "entity": "caihesen",
+    "q": "第一个明确提出「中国共产党」名称的是谁？",
+    "q_en": "Who was the first to put forward the name 'Chinese Communist Party'?",
+    "options": ["毛泽东", "蔡和森", "何叔衡", "向警予"],
+    "options_en": ["Mao Zedong", "Cai Hesen", "He Shuheng", "Xiang Jingyu"],
+    "answer": 1,
+    "explain": "蔡和森在留法期间提出这一名称，并与毛泽东共同发起新民学会。",
+    "explain_en": "Cai Hesen proposed the name while in France and co-founded the study society with Mao."
+  },
+  {
+    "id": "q13",
+    "entity": "well",
+    "q": "毛泽东在一师坚持冷水浴的地点是？",
+    "q_en": "Where did Mao take his cold-water baths at the school?",
+    "options": ["湘江边", "校内水井", "君子亭", "大礼堂"],
+    "options_en": ["By the Xiangjiang River", "The campus well", "The Junzi Pavilion", "The assembly hall"],
+    "answer": 1,
+    "explain": "校内水井是他常年冷水浴的具体地点，四季不断。",
+    "explain_en": "The campus well was where he bathed in cold water all year round."
+  },
+  {
+    "id": "q14",
+    "entity": "xuteli",
+    "q": "徐特立在一师教授哪门学科，且是毛泽东和田汉的老师？",
+    "q_en": "Which subject did Xu Teli teach at the school, where he taught both Mao and Tian Han?",
+    "options": ["伦理学", "教育学", "历史", "国文"],
+    "options_en": ["Ethics", "Education", "History", "Chinese literature"],
+    "answer": 1,
+    "explain": "徐特立任一师教育学教员，被尊为「延安五老」之一。",
+    "explain_en": "Xu taught education and is honoured as one of the 'Five Elders of Yan'an'."
+  },
+  {
+    "id": "q15",
+    "entity": "lunlixue",
+    "q": "毛泽东留下万余字批注的《伦理学原理》是谁授课的教材？",
+    "q_en": "Whose course used the 'Principles of Ethics' that Mao annotated at length?",
+    "options": ["杨昌济", "黎锦熙", "徐特立", "徐特立与黎锦熙"],
+    "options_en": ["Yang Changji", "Li Jinxi", "Xu Teli", "Xu Teli and Li Jinxi"],
+    "answer": 0,
+    "explain": "杨昌济讲授伦理学/修身学，毛泽东在该教材上写下一万多字批注。",
+    "explain_en": "Yang Changji taught ethics and self-cultivation; Mao wrote over ten thousand characters of notes in the textbook."
+  }
+]
