@@ -1,81 +1,938 @@
 {
   "nodes": [
-    {"id": "mao", "name": "毛泽东", "type": "PERSON", "image": "mao.jpg", "sources": ["http://cpc.people.com.cn/n1/2024/0407/c443712-40210604.html", "http://hn.people.com.cn/n2/2021/0124/c337651-34544418.html"]},
-    {"id": "caihesen", "name": "蔡和森", "type": "PERSON", "image": "placeholder.png", "sources": ["http://paper.people.com.cn/rmzk/html/2024-05/28/content_26061067.htm", "https://www.dswxyjy.org.cn/n1/2021/0601/c437602-32119239.html"]},
-    {"id": "heshuheng", "name": "何叔衡", "type": "PERSON", "image": "placeholder.png", "sources": ["http://dangshi.people.cn/n1/2020/1014/c85037-31890960.html", "http://paper.people.com.cn/rmrb/html/2021-05/07/nw.D110000renmrb_20210507_2-04.htm"]},
-    {"id": "yangchangji", "name": "杨昌济", "type": "PERSON", "image": "placeholder.png", "sources": ["https://cpc.people.com.cn/GB/n1/2023/1114/c443712-40117490.html", "http://cpc.people.com.cn/BIG5/n1/2024/0407/c443712-40210604.html"]},
-    {"id": "xuteli", "name": "徐特立", "type": "PERSON", "image": "placeholder.png", "sources": ["http://dangshi.people.com.cn/n1/2019/0902/c85037-31330412.html", "http://dangshi.people.com.cn/n1/2017/0329/c85037-29176831.html"]},
-    {"id": "xiangjingyu", "name": "向警予", "type": "PERSON", "image": "placeholder.png", "sources": ["https://cpc.people.com.cn/n1/2023/0217/c443712-32625504.html", "http://dangshi.people.com.cn/n1/2021/0511/c436975-32099489.html"]},
-    {"id": "xiaozisheng", "name": "萧子升", "type": "PERSON", "image": "placeholder.png", "sources": ["http://paper.people.com.cn/rmzk/html/2020-05/27/content_1989142.htm", "https://www.dswxyjy.org.cn/n1/2024/0315/c423725-40196424.html"]},
-    {"id": "lijinxi", "name": "黎锦熙", "type": "PERSON", "image": "placeholder.png", "sources": ["http://dangshi.people.com.cn/n1/2019/0117/c85037-30560312.html", "http://dangshi.people.com.cn/n/2013/1122/c85037-23625390.html"]},
-    {"id": "tianhan", "name": "田汉", "type": "PERSON", "image": "placeholder.png", "sources": ["http://dangshi.people.com.cn/n1/2019/0902/c85037-31330412.html"]},
-    {"id": "class8", "name": "第八班教室", "type": "PLACE", "image": "placeholder.png", "sources": ["http://dangshi.people.com.cn/n1/2021/0121/c85037-32007247.html"]},
-    {"id": "well", "name": "一师水井", "type": "PLACE", "image": "placeholder.png", "sources": ["http://whhlyt.hunan.gov.cn/news/mtjj/202103/t20210315_14829299.html"]},
-    {"id": "hall", "name": "大礼堂", "type": "PLACE", "image": "placeholder.png", "sources": ["http://whhlyt.hunan.gov.cn/news/mtjj/202103/t20210315_14829299.html"]},
-    {"id": "pavilion", "name": "君子亭", "type": "PLACE", "image": "placeholder.png", "sources": ["http://whhlyt.hunan.gov.cn/news/mtjj/202103/t20210315_14829299.html"]},
-    {"id": "readingroom", "name": "阅报室", "type": "PLACE", "image": "placeholder.png", "sources": ["http://whhlyt.hunan.gov.cn/news/mtjj/202103/t20210315_14829299.html"]},
-    {"id": "school", "name": "第一师范旧址", "type": "PLACE", "image": "placeholder.png", "sources": ["https://www.dswxyjy.org.cn/n/2013/0805/c222137-22449623.html"]},
-    {"id": "chengnan", "name": "城南书院", "type": "PLACE", "image": "placeholder.png", "sources": ["http://politics.people.com.cn/n1/2024/0319/c1001-40198806.html"]},
-    {"id": "coldbath", "name": "冷水浴", "type": "EVENT", "image": "placeholder.png", "sources": ["https://www.dswxyjy.org.cn/n/2015/1026/c222139-27741712.html"]},
-    {"id": "studytour", "name": "游学（社会调查）", "type": "EVENT", "image": "placeholder.png", "sources": ["http://paper.people.com.cn/rmzk/html/2019-02/22/content_1910612.htm"]},
-    {"id": "nightclass", "name": "工人夜学", "type": "EVENT", "image": "placeholder.png", "sources": ["http://cpc.people.com.cn/n1/2024/0401/c443712-40207486.html"]},
-    {"id": "xiangjiang", "name": "创办《湘江评论》", "type": "EVENT", "image": "placeholder.png", "sources": ["http://www.hunan.gov.cn/topic/fdbnlqhxzc/hxcbns/202106/t20210616_19541257.html"]},
-    {"id": "xinmin_found", "name": "新民学会成立", "type": "EVENT", "image": "placeholder.png", "sources": ["http://dangshi.people.com.cn/n1/2020/0508/c85037-31700536.html"]},
-    {"id": "quzhang", "name": "驱逐张敬尧运动", "type": "EVENT", "image": "placeholder.png", "sources": ["http://dangshi.people.com.cn/n1/2020/0714/c85037-31782057.html"]},
-    {"id": "exercise", "name": "体育锻炼（六段锦等）", "type": "EVENT", "image": "placeholder.png", "sources": ["https://www.dswxyjy.org.cn/n/2015/1026/c222139-27741712.html"]},
-    {"id": "xinmin", "name": "新民学会", "type": "ORG", "image": "placeholder.png", "sources": ["http://dangshi.people.com.cn/n1/2020/0508/c85037-31700536.html"]},
-    {"id": "hnfs", "name": "湖南第一师范", "type": "ORG", "image": "placeholder.png", "sources": ["https://www.dswxyjy.org.cn/n/2013/0805/c222137-22449623.html"]},
-    {"id": "spirit", "name": "文明其精神，野蛮其体魄", "type": "CONCEPT", "image": "placeholder.png", "sources": ["http://cpc.people.com.cn/n1/2024/0401/c443712-40207486.html"]},
-    {"id": "jingshi", "name": "经世致用", "type": "CONCEPT", "image": "placeholder.png", "sources": ["http://dangshi.people.com.cn/n1/2018/1222/c85037-30482121.html"]},
-    {"id": "shishi", "name": "实事求是", "type": "CONCEPT", "image": "placeholder.png", "sources": ["http://www.hunan.gov.cn/hnszf/hnyw/sy/hnyw1/202110/t20211015_20764073.html"]},
-    {"id": "jiaoyu", "name": "教育救国", "type": "CONCEPT", "image": "placeholder.png", "sources": ["https://www.dswxyjy.org.cn/n1/2018/0828/c219001-30255787.html"]},
-    {"id": "zunshi", "name": "尊师重道", "type": "CONCEPT", "image": "placeholder.png", "sources": ["http://dangshi.people.com.cn/n1/2019/0902/c85037-31330412.html"]},
-    {"id": "wuzizhishu", "name": "读无字之书", "type": "CONCEPT", "image": "placeholder.png", "sources": ["http://paper.people.com.cn/rmzk/html/2019-02/22/content_1910612.htm"]},
-    {"id": "tiyuzhiyanjiu", "name": "《体育之研究》", "type": "WORK", "image": "placeholder.png", "sources": ["https://www.dswxyjy.org.cn/n/2015/1026/c222139-27741712.html"]},
-    {"id": "lunlixue", "name": "《伦理学原理》批注", "type": "WORK", "image": "placeholder.png", "sources": ["http://dangshi.people.com.cn/n1/2018/0717/c85037-30152388.html"]}
+    {
+      "id": "mao",
+      "name": "毛泽东",
+      "type": "PERSON",
+      "image": "mao.jpg",
+      "sources": [
+        "http://hn.people.com.cn/n2/2021/0124/c337651-34544418.html",
+        "http://cpc.people.com.cn/n1/2024/0407/c443712-40210604.html"
+      ],
+      "desc": "一师第八班学生，青年时期核心人物。",
+      "aliases": [
+        "毛主席",
+        "润之",
+        "二十八画生",
+        "Mao Zedong",
+        "Mao",
+        "Chairman Mao"
+      ],
+      "image_credit": "图片：Wikimedia Commons《毛泽东 1919 年在长沙》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Mao_Zedong_in_1919_(02).jpg",
+      "name_en": "Mao Zedong",
+      "desc_en": "Student of Class Eight at Hunan First Normal School; the central figure of his youth.",
+      "image_credit_en": "Image: Wikimedia Commons — Mao Zedong in Changsha, 1919"
+    },
+    {
+      "id": "caihesen",
+      "name": "蔡和森",
+      "type": "PERSON",
+      "image": "caihesen.jpg",
+      "sources": [
+        "http://paper.people.com.cn/rmzk/html/2024-05/28/content_26061067.htm",
+        "https://www.dswxyjy.org.cn/n1/2021/0601/c437602-32119239.html"
+      ],
+      "desc": "一师学生，毛泽东挚友，新民学会发起人之一。",
+      "aliases": [
+        "蔡林彬",
+        "Cai Hesen",
+        "Cai"
+      ],
+      "image_credit": "图片：Wikimedia Commons《蔡和森》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:%E8%94%A1%E5%92%8C%E6%A3%AE%EF%BC%88%E6%88%B4%E7%9C%BC%E9%95%9C%EF%BC%89.jpg",
+      "name_en": "Cai Hesen",
+      "desc_en": "Student of Hunan First Normal School, close friend of Mao Zedong and one of the founders of the New People's Study Society.",
+      "image_credit_en": "Image: Wikimedia Commons — Cai Hesen"
+    },
+    {
+      "id": "heshuheng",
+      "name": "何叔衡",
+      "type": "PERSON",
+      "image": "heshuheng.jpg",
+      "sources": [
+        "http://dangshi.people.cn/n1/2020/1014/c85037-31890960.html",
+        "http://paper.people.com.cn/rmrb/html/2021-05/07/nw.D110000renmrb_20210507_2-04.htm",
+        "https://www.dswxyjy.org.cn/n/2013/0815/c222137-22578407.html"
+      ],
+      "desc": "一师讲习科学生（1913年入学，37岁，是当时年龄最大的学生），新民学会最年长的会员，中共一大代表。",
+      "aliases": [
+        "叔翁",
+        "He Shuheng"
+      ],
+      "image_credit": "图片：Wikimedia Commons《何叔衡》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:HeShuHeng.jpg",
+      "name_en": "He Shuheng",
+      "desc_en": "Student of the teacher-training course at Hunan First Normal School (entered in 1913 at the age of 37, the oldest in his cohort), the oldest member of the New People's Study Society and a delegate to the First National Congress of the CPC.",
+      "image_credit_en": "Image: Wikimedia Commons — He Shuheng"
+    },
+    {
+      "id": "yangchangji",
+      "name": "杨昌济",
+      "type": "PERSON",
+      "image": "yangchangji.jpg",
+      "sources": [
+        "https://cpc.people.com.cn/GB/n1/2023/1114/c443712-40117490.html",
+        "http://cpc.people.com.cn/BIG5/n1/2024/0407/c443712-40210604.html",
+        "https://www.bjdsdfz.cn/hsgshj/104995.jhtml"
+      ],
+      "desc": "一师伦理学/修身学教员，毛泽东“印象最深的教员”，后来成为毛泽东的岳父。",
+      "aliases": [
+        "杨怀中",
+        "怀中先生",
+        "Yang Changji"
+      ],
+      "image_credit": "图片：Wikimedia Commons《杨昌济》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:YangChangJi.jpg",
+      "name_en": "Yang Changji",
+      "desc_en": "Teacher of ethics and self-cultivation at Hunan First Normal School, the teacher who impressed Mao Zedong most, and later his father-in-law.",
+      "image_credit_en": "Image: Wikimedia Commons — Yang Changji"
+    },
+    {
+      "id": "xuteli",
+      "name": "徐特立",
+      "type": "PERSON",
+      "image": "xuteli.jpg",
+      "sources": [
+        "http://dangshi.people.com.cn/n1/2019/0902/c85037-31330412.html",
+        "http://dangshi.people.com.cn/n1/2017/0329/c85037-29176831.html"
+      ],
+      "desc": "一师教育学教员，毛泽东和田汉的老师。",
+      "aliases": [
+        "徐老",
+        "徐特老",
+        "Xu Teli",
+        "Xu"
+      ],
+      "image_credit": "图片：Wikimedia Commons《徐特立》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:%E5%BE%90%E7%89%B9%E7%AB%8B.jpg",
+      "name_en": "Xu Teli",
+      "desc_en": "Teacher of education at Hunan First Normal School and teacher of both Mao Zedong and Tian Han.",
+      "image_credit_en": "Image: Wikimedia Commons — Xu Teli"
+    },
+    {
+      "id": "xiangjingyu",
+      "name": "向警予",
+      "type": "PERSON",
+      "image": "xiangjingyu.jpg",
+      "sources": [
+        "https://cpc.people.com.cn/n1/2023/0217/c443712-32625504.html",
+        "http://dangshi.people.com.cn/n1/2021/0511/c436975-32099489.html"
+      ],
+      "desc": "早期女性革命家，蔡和森的革命伴侣。",
+      "aliases": [
+        "向俊贤",
+        "Xiang Jingyu"
+      ],
+      "image_credit": "图片：Wikimedia Commons《向警予》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:%E5%90%91%E8%AD%A6%E4%BA%88.jpg",
+      "name_en": "Xiang Jingyu",
+      "desc_en": "An early woman revolutionary and the revolutionary partner of Cai Hesen.",
+      "image_credit_en": "Image: Wikimedia Commons — Xiang Jingyu"
+    },
+    {
+      "id": "xiaozisheng",
+      "name": "萧子升",
+      "type": "PERSON",
+      "image": "xiaozisheng.jpg",
+      "sources": [
+        "http://paper.people.com.cn/rmzk/html/2020-05/27/content_1989142.htm",
+        "https://www.dswxyjy.org.cn/n1/2024/0315/c423725-40196424.html"
+      ],
+      "desc": "一师学生，毛泽东挚友，新民学会首任总干事。",
+      "aliases": [
+        "萧瑜",
+        "Xiao Zisheng"
+      ],
+      "image_credit": "示意图（暂无实拍图片）",
+      "image_source": "",
+      "name_en": "Xiao Zisheng",
+      "desc_en": "Student of Hunan First Normal School, close friend of Mao Zedong and first secretary-general of the New People's Study Society.",
+      "image_credit_en": "Illustration — no verified photograph available"
+    },
+    {
+      "id": "lijinxi",
+      "name": "黎锦熙",
+      "type": "PERSON",
+      "image": "lijinxi.jpg",
+      "sources": [
+        "http://dangshi.people.com.cn/n1/2019/0117/c85037-30560312.html",
+        "http://dangshi.people.com.cn/n/2013/1122/c85037-23625390.html"
+      ],
+      "desc": "一师历史教员。",
+      "aliases": [
+        "黎劭西",
+        "Li Jinxi"
+      ],
+      "image_credit": "图片：Wikimedia Commons《黎锦熙 1924 年》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:%E9%BB%8E%E9%94%A6%E7%86%99%E6%91%84%E4%BA%8E1924%E5%B9%B4.jpg",
+      "name_en": "Li Jinxi",
+      "desc_en": "Teacher of history at Hunan First Normal School.",
+      "image_credit_en": "Image: Wikimedia Commons — Li Jinxi, 1924"
+    },
+    {
+      "id": "tianhan",
+      "name": "田汉",
+      "type": "PERSON",
+      "image": "tianhan.jpg",
+      "sources": [
+        "http://dangshi.people.com.cn/n1/2019/0902/c85037-31330412.html"
+      ],
+      "desc": "田汉：一师学生，徐特立的学生，后成为剧作家。",
+      "aliases": [
+        "田寿昌",
+        "Tian Han",
+        "Tian"
+      ],
+      "image_credit": "图片：Wikimedia Commons《田汉，1930 年代》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Tian_Han_(1930s).webp",
+      "name_en": "Tian Han",
+      "desc_en": "A student of Hunan First Normal School and of Xu Teli, later a playwright.",
+      "image_credit_en": "Image: Wikimedia Commons — Tian Han in the 1930s"
+    },
+    {
+      "id": "class8",
+      "name": "第八班教室",
+      "type": "PLACE",
+      "image": "class8.jpg",
+      "sources": [
+        "http://dangshi.people.com.cn/n1/2021/0121/c85037-32007247.html",
+        "http://hn.people.com.cn/n2/2021/0124/c337651-34544418.html"
+      ],
+      "desc": "毛泽东在一师求学时的固定上课教室。",
+      "image_credit": "图片：百度图片《第八班教室.人民网记者 向宇摄》",
+      "image_source": "ippr_z2C$qAzdH3FAzdH3Fig_z&e3Brj5rsj_z&e3Bv54_z&e3BvgAzdH3FgdAzdH3FdadcAzdH3Fa089AzdH3Fvnnmcd8-98dla0l0_z&e3Bip4s",
+      "name_en": "Classroom of Class Eight",
+      "desc_en": "The fixed classroom where Mao Zedong studied at Hunan First Normal School.",
+      "image_credit_en": "Image: web search — the Class Eight classroom (photo: Xiang Yu, People's Daily Online)",
+      "aliases": [
+        "Classroom of Class Eight",
+        "class eight",
+        "classroom of class eight"
+      ]
+    },
+    {
+      "id": "well",
+      "name": "一师水井",
+      "type": "PLACE",
+      "image": "well.jpg",
+      "sources": [
+        "http://whhlyt.hunan.gov.cn/news/mtjj/202103/t20210315_14829299.html",
+        "http://hn.people.com.cn/n2/2021/0124/c337651-34544418.html"
+      ],
+      "desc": "位于一师校内的一口水井。",
+      "image_credit": "图片：网络检索《水井的故事》· 湖南第一师范校内水井",
+      "image_source": "ippr_z2C$qAzdH3FAzdH3F65ss_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fbb9ab8ba0_8ddndn0nm",
+      "name_en": "The Well on Campus",
+      "desc_en": "A well on the campus of Hunan First Normal School.",
+      "image_credit_en": "Image: web search — the well on the campus of Hunan First Normal School",
+      "aliases": [
+        "The Well on Campus",
+        "the well",
+        "well"
+      ]
+    },
+    {
+      "id": "hall",
+      "name": "大礼堂",
+      "type": "PLACE",
+      "image": "hall.jpg",
+      "sources": [
+        "http://whhlyt.hunan.gov.cn/news/mtjj/202103/t20210315_14829299.html",
+        "https://www.dswxyjy.org.cn/n/2013/0805/c222137-22449623.html"
+      ],
+      "desc": "一师校内重要建筑。",
+      "image_credit": "示意图（暂无实拍图片）",
+      "image_source": "",
+      "name_en": "Assembly Hall",
+      "desc_en": "An important building on the campus of Hunan First Normal School.",
+      "image_credit_en": "Illustration — no verified photograph available",
+      "aliases": [
+        "Assembly Hall",
+        "the hall",
+        "auditorium"
+      ]
+    },
+    {
+      "id": "pavilion",
+      "name": "君子亭",
+      "type": "PLACE",
+      "image": "pavilion.jpg",
+      "sources": [
+        "http://whhlyt.hunan.gov.cn/news/mtjj/202103/t20210315_14829299.html",
+        "http://hn.people.com.cn/n2/2021/0124/c337651-34544418.html"
+      ],
+      "desc": "一师校内的亭子。",
+      "image_credit": "图片：百度图片《君子亭》",
+      "image_source": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3B4jtrtwg_z&e3BvgAzdH3Fn9ginrfh",
+      "name_en": "Junzi Pavilion",
+      "desc_en": "A pavilion on the campus of Hunan First Normal School.",
+      "image_credit_en": "Image: web search — the Junzi Pavilion",
+      "aliases": [
+        "Junzi Pavilion",
+        "the pavilion"
+      ]
+    },
+    {
+      "id": "readingroom",
+      "name": "阅报室",
+      "type": "PLACE",
+      "image": "readingroom.jpg",
+      "sources": [
+        "http://whhlyt.hunan.gov.cn/news/mtjj/202103/t20210315_14829299.html",
+        "http://cpc.people.com.cn/n1/2024/0407/c443712-40210604.html"
+      ],
+      "desc": "毛泽东在一师期间每天必去的地方。",
+      "image_credit": "图片：网络检索《‍曾经的阅报室‍园内花园‍微碉景观群‍进入主景区‍泮立》· 一师阅报室旧址陈列",
+      "image_source": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3B4jtrtwg_z&e3BvgAzdH3Fck78b56r",
+      "name_en": "Newspaper Reading Room",
+      "desc_en": "A place Mao Zedong went to every day during his years at Hunan First Normal School.",
+      "image_credit_en": "Image: web search — the former reading room",
+      "aliases": [
+        "Newspaper Reading Room",
+        "reading room"
+      ]
+    },
+    {
+      "id": "school",
+      "name": "第一师范旧址",
+      "type": "PLACE",
+      "image": "school.jpg",
+      "sources": [
+        "https://www.dswxyjy.org.cn/n/2013/0805/c222137-22449623.html",
+        "https://www.hunan.gov.cn/hnszf/jxxx/hslv/c101474/202108/t20210827_20403355.html"
+      ],
+      "desc": "一师的核心校区，前身为城南书院。",
+      "aliases": [
+        "一师旧址",
+        "第一师范旧址",
+        "Site of Hunan First Normal School",
+        "old campus",
+        "the site"
+      ],
+      "image_credit": "图片：Wikimedia Commons《湖南省立第一师范学校旧址》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Hunandiyishifan.jpg",
+      "name_en": "Site of Hunan First Normal School",
+      "desc_en": "The core campus of Hunan First Normal School, whose predecessor was Chengnan Academy.",
+      "image_credit_en": "Image: Wikimedia Commons — the site of Hunan First Normal School"
+    },
+    {
+      "id": "chengnan",
+      "name": "城南书院",
+      "type": "PLACE",
+      "image": "chengnan.jpg",
+      "sources": [
+        "http://politics.people.com.cn/n1/2024/0319/c1001-40198806.html",
+        "http://wwj.hunan.gov.cn/c100310/c100313/202403/t20240327_33263618.html"
+      ],
+      "desc": "湖南省立第一师范的前身。",
+      "aliases": [
+        "城南书院故址",
+        "Chengnan Academy",
+        "Chengnan"
+      ],
+      "image_credit": "图片：Wikimedia Commons《城南书院故址》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Site_of_Chengnan_Academy.jpg",
+      "name_en": "Chengnan Academy",
+      "desc_en": "The predecessor of Hunan Provincial First Normal School.",
+      "image_credit_en": "Image: Wikimedia Commons — the site of Chengnan Academy"
+    },
+    {
+      "id": "coldbath",
+      "name": "冷水浴",
+      "type": "EVENT",
+      "image": "coldbath.jpg",
+      "sources": [
+        "https://www.dswxyjy.org.cn/n/2015/1026/c222139-27741712.html",
+        "http://dangshi.people.com.cn/n1/2021/0315/c85037-32051313.html"
+      ],
+      "desc": "毛泽东在一师期间坚持的体育锻炼方式。",
+      "image_credit": "图片：一师水井 · 毛泽东常年在此进行冷水浴",
+      "image_source": "ippr_z2C$qAzdH3FAzdH3Fooo_z&e3Bf5i7_z&e3Bv54AzdH3FwAzdH3Fn0dla08m9_8aa89b9l0",
+      "name_en": "Cold-Water Baths",
+      "desc_en": "A form of physical training that Mao Zedong kept up throughout his years at Hunan First Normal School.",
+      "image_credit_en": "Image: the well on campus, where Mao took cold-water baths",
+      "aliases": [
+        "Cold-Water Baths",
+        "cold water bath",
+        "cold bath"
+      ]
+    },
+    {
+      "id": "studytour",
+      "name": "游学（社会调查）",
+      "type": "EVENT",
+      "image": "studytour.jpg",
+      "sources": [
+        "http://paper.people.com.cn/rmzk/html/2019-02/22/content_1910612.htm",
+        "https://www.dswxyjy.org.cn/n1/2024/0315/c423725-40196424.html"
+      ],
+      "desc": "1917年毛泽东与萧子升进行的社会调查活动。",
+      "aliases": [
+        "游学",
+        "社会调查",
+        "Study Tour (Social Investigation)",
+        "study tour"
+      ],
+      "image_credit": "图片：网络检索《正在湖南第一师范读书的青年毛泽东,利用假期,开始了他的\"行乞\"游学之》· 青年毛泽东在一师求学期间外出游学（社会调查）",
+      "image_source": "ippr_z2C$qAzdH3FAzdH3Fr5stptvf_z&e3Brj5rsj_z&e3Bv54_z&e3BvgAzdH3Fkt2cAzdH3FgAzdH3Fda8nAzdH3Fa08cAzdH3Fv8aa8-dddacdnb-d_z&e3Bip4s",
+      "name_en": "Study Tour (Social Investigation)",
+      "desc_en": "A social investigation carried out by Mao Zedong and Xiao Zisheng in 1917.",
+      "image_credit_en": "Image: web search — the young Mao setting out on a study tour during his years at the school"
+    },
+    {
+      "id": "nightclass",
+      "name": "工人夜学",
+      "type": "EVENT",
+      "image": "nightclass.jpg",
+      "sources": [
+        "http://cpc.people.com.cn/n1/2024/0401/c443712-40207486.html",
+        "http://dangshi.people.com.cn/n/2013/0929/c85037-23071459-3.html"
+      ],
+      "desc": "毛泽东在一师期间创办的工人教育机构。",
+      "aliases": [
+        "夜学",
+        "Workers' Night School",
+        "night school"
+      ],
+      "image_credit": "图片：网络检索 · 工人夜学旧址（湖南第一师范）",
+      "image_source": "",
+      "name_en": "Workers' Night School",
+      "desc_en": "A workers' education institution founded by Mao Zedong during his years at Hunan First Normal School.",
+      "image_credit_en": "Image: web search — the site of the workers' night school at Hunan First Normal School"
+    },
+    {
+      "id": "xiangjiang",
+      "name": "创办《湘江评论》",
+      "type": "EVENT",
+      "image": "xiangjiang.jpg",
+      "sources": [
+        "http://www.hunan.gov.cn/topic/fdbnlqhxzc/hxcbns/202106/t20210616_19541257.html",
+        "http://hn.people.com.cn/n2/2021/0103/c195194-34508350.html"
+      ],
+      "desc": "1919年毛泽东在长沙创办的学生刊物。",
+      "aliases": [
+        "湘江评论",
+        "Launching the Xiangjiang Review",
+        "Xiangjiang Review"
+      ],
+      "image_credit": "图片：百度图片《展品《湘江评论》创刊号. 张亨伟 摄》",
+      "image_source": "ippr_z2C$qAzdH3FAzdH3Fojgi7w_z&e3By57pi_z&e3BvgAzdH3FoiyoAzdH3Fdadna0AzdH3Fpdadna0a8_89m8ln0l_z&e3Bip4",
+      "name_en": "Launching the Xiangjiang Review",
+      "desc_en": "A student journal founded by Mao Zedong in Changsha in 1919.",
+      "image_credit_en": "Image: web search — the first issue of the Xiangjiang Review on display"
+    },
+    {
+      "id": "xinmin_found",
+      "name": "新民学会成立",
+      "type": "EVENT",
+      "image": "xinmin_found.jpg",
+      "sources": [
+        "http://dangshi.people.com.cn/n1/2020/0508/c85037-31700536.html",
+        "https://www.dswxyjy.org.cn/n/2013/0812/c222137-22533954.html"
+      ],
+      "desc": "1918年由毛泽东、蔡和森、萧子升等人发起的社团。",
+      "aliases": [
+        "新民学会成立会",
+        "Founding of the New People's Study Society",
+        "founding of the study society"
+      ],
+      "image_credit": "图片：Wikimedia Commons《新民学会会员在长沙合影》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E6%B0%91%E5%AD%A6%E4%BC%9A%E4%BC%9A%E5%91%98%E5%9C%A8%E9%95%BF%E6%B2%99%E6%91%84%E5%BD%B1.jpg",
+      "name_en": "Founding of the New People's Study Society",
+      "desc_en": "A society initiated in 1918 by Mao Zedong, Cai Hesen, Xiao Zisheng and others.",
+      "image_credit_en": "Image: Wikimedia Commons — members of the New People's Study Society in Changsha"
+    },
+    {
+      "id": "quzhang",
+      "name": "驱逐张敬尧运动",
+      "type": "EVENT",
+      "image": "quzhang.jpg",
+      "sources": [
+        "http://dangshi.people.com.cn/n1/2020/0714/c85037-31782057.html",
+        "http://dangshi.people.com.cn/n1/2021/1130/c436975-32295037.html"
+      ],
+      "desc": "毛泽东等人领导的湖南学生运动。",
+      "aliases": [
+        "驱张运动",
+        "Movement to Expel Zhang Jingyao",
+        "expel Zhang Jingyao"
+      ],
+      "image_credit": "图片：Wikimedia Commons《张敬尧》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Zhang_Jingyao.jpg",
+      "name_en": "Movement to Expel Zhang Jingyao",
+      "desc_en": "A Hunan student movement led by Mao Zedong and others.",
+      "image_credit_en": "Image: Wikimedia Commons — Zhang Jingyao"
+    },
+    {
+      "id": "exercise",
+      "name": "体育锻炼（六段锦等）",
+      "type": "EVENT",
+      "image": "exercise.jpg",
+      "sources": [
+        "https://www.dswxyjy.org.cn/n/2015/1026/c222139-27741712.html",
+        "http://cpc.people.com.cn/n1/2024/0401/c443712-40207486.html"
+      ],
+      "desc": "毛泽东结合传统武术创编的锻炼方法。",
+      "aliases": [
+        "六段锦",
+        "体育锻炼",
+        "Physical Training (Liuduanjin)",
+        "physical training",
+        "liuduanjin"
+      ],
+      "image_credit": "图片：中国网《依据毛泽东〈体育之研究〉绘制的体操图》",
+      "image_source": "",
+      "name_en": "Physical Training (Liuduanjin)",
+      "desc_en": "Exercise methods that Mao Zedong created by combining traditional martial arts.",
+      "image_credit_en": "Image: China.org.cn — exercise chart drawn from Mao's 'A Study of Physical Education'"
+    },
+    {
+      "id": "xinmin",
+      "name": "新民学会",
+      "type": "ORG",
+      "image": "xinmin.jpg",
+      "sources": [
+        "http://dangshi.people.com.cn/n1/2020/0508/c85037-31700536.html"
+      ],
+      "desc": "新民学会：1918 年由毛泽东、蔡和森、萧子升等人发起的社团，湖南反帝反封建的核心社团。",
+      "image_credit": "图片：Wikimedia Commons《新民学会会员在长沙合影》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E6%B0%91%E5%AD%A6%E4%BC%9A%E4%BC%9A%E5%91%98%E5%9C%A8%E9%95%BF%E6%B2%99%E6%91%84%E5%BD%B1.jpg",
+      "name_en": "New People's Study Society",
+      "desc_en": "A society founded in 1918 by Mao Zedong, Cai Hesen, Xiao Zisheng and others, and a core force in Hunan's anti-imperialist and anti-feudal movement.",
+      "image_credit_en": "Image: Wikimedia Commons — members of the society in Changsha",
+      "aliases": [
+        "New People's Study Society",
+        "Xinmin Society"
+      ]
+    },
+    {
+      "id": "hnfs",
+      "name": "湖南第一师范",
+      "type": "ORG",
+      "image": "hnfs.jpg",
+      "sources": [
+        "https://www.dswxyjy.org.cn/n/2013/0805/c222137-22449623.html"
+      ],
+      "desc": "湖南第一师范（简称“一师”），前身为南宋城南书院，毛泽东在此求学并任教八年。",
+      "aliases": [
+        "一师",
+        "第一师范",
+        "湖南一师",
+        "Hunan First Normal School",
+        "HNFS",
+        "Yishi",
+        "First Normal School",
+        "Hunan First Normal"
+      ],
+      "image_credit": "图片：Wikimedia Commons《湖南省立第一师范学校旧址》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Hunandiyishifan.jpg",
+      "name_en": "Hunan First Normal School",
+      "desc_en": "Hunan First Normal School (known as 'Yishi'), whose predecessor was Chengnan Academy of the Southern Song; Mao Zedong studied and taught here for eight years.",
+      "image_credit_en": "Image: Wikimedia Commons — the site of Hunan First Normal School"
+    },
+    {
+      "id": "spirit",
+      "name": "文明其精神，野蛮其体魄",
+      "type": "CONCEPT",
+      "image": "spirit.jpg",
+      "sources": [
+        "http://cpc.people.com.cn/n1/2024/0401/c443712-40207486.html",
+        "http://cpc.people.com.cn/n1/2024/0407/c443712-40210604.html"
+      ],
+      "desc": "毛泽东早期倡导的全面发展理念。",
+      "aliases": [
+        "文明其精神",
+        "野蛮其体魄",
+        "Civilise the Spirit, Toughen the Body",
+        "civilise the spirit"
+      ],
+      "image_credit": "图片：网络检索《\"文明其精神,野蛮其体魄\",那是适合任何时代的教育真谛》· 「文明其精神，野蛮其体魄」题词",
+      "image_source": "ippr_z2C$qAzdH3FAzdH3Fkwt3twiw5_z&e3Bkwt17_z&e3Bv54AzdH3Ff?t1=8bn9bam999mla8bdncc&ou6=frt1j6&u56=rv",
+      "name_en": "Civilise the Spirit, Toughen the Body",
+      "desc_en": "An ideal of all-round development that Mao Zedong advocated in his early years.",
+      "image_credit_en": "Image: web search — the inscription 'civilise the spirit, toughen the body'"
+    },
+    {
+      "id": "jingshi",
+      "name": "经世致用",
+      "type": "CONCEPT",
+      "image": "jingshi.jpg",
+      "sources": [
+        "http://dangshi.people.com.cn/n1/2018/1222/c85037-30482121.html",
+        "http://whhlyt.hunan.gov.cn/news/wlyw/201901/t20190108_5373680.html"
+      ],
+      "desc": "湖湘文化核心精神。",
+      "image_credit": "图片：Wikimedia Commons《岳麓书院》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Changsha_Yuelu_Shuyuan_2014.03.04_08-10-05.jpg",
+      "name_en": "Practical Statecraft",
+      "desc_en": "A core spirit of Huxiang culture.",
+      "image_credit_en": "Image: Wikimedia Commons — Yuelu Academy",
+      "aliases": [
+        "Practical Statecraft",
+        "practical statecraft"
+      ]
+    },
+    {
+      "id": "shishi",
+      "name": "实事求是",
+      "type": "CONCEPT",
+      "image": "shishi.jpg",
+      "sources": [
+        "http://www.hunan.gov.cn/hnszf/hnyw/sy/hnyw1/202110/t20211015_20764073.html",
+        "http://dangshi.people.com.cn/n1/2021/1130/c436975-32295037.html"
+      ],
+      "desc": "一师校训。",
+      "image_credit": "图片：网络检索《年轻干部要以实事求是锻造坚强党性》· 「实事求是」",
+      "image_source": "ippr_z2C$qAzdH3FAzdH3Fgjof_z&e3Bvy5s_z&e3Bv54AzdH3F2kAzdH3Fw6ptvsjfAzdH3Fdad8-alAzdH3F8bAzdH3Fv5gpjgp_OOGyetWyw_z&e3Bip4s",
+      "name_en": "Seeking Truth from Facts",
+      "desc_en": "The motto of Hunan First Normal School.",
+      "image_credit_en": "Image: web search — the inscription 'seeking truth from facts'",
+      "aliases": [
+        "Seeking Truth from Facts",
+        "seeking truth from facts"
+      ]
+    },
+    {
+      "id": "jiaoyu",
+      "name": "教育救国",
+      "type": "CONCEPT",
+      "image": "jiaoyu.jpg",
+      "sources": [
+        "https://www.dswxyjy.org.cn/n1/2018/0828/c219001-30255787.html",
+        "http://cpc.people.com.cn/n1/2024/0407/c443712-40210604.html"
+      ],
+      "desc": "青年毛泽东及一师师生早期的共同理想。",
+      "image_credit": "图片：网络检索《湖南第一师范,教员的座位是倒数第二排靠窗.》· 湖南省立第一师范学校教室",
+      "image_source": "ippr_z2C$qAzdH3FAzdH3F4k1_z&e3Bkwt17_z&e3Bv54AzdH3Fgjofrw2jAzdH3F1wpwAzdH3F1pswg1tg2f7rj6?gt1=1p_nl8cbbbn9mnbb0d0d8m",
+      "name_en": "Saving the Nation through Education",
+      "desc_en": "A shared early ideal of the young Mao Zedong and the teachers and students of Hunan First Normal School.",
+      "image_credit_en": "Image: web search — a classroom at Hunan First Normal School",
+      "aliases": [
+        "Saving the Nation through Education",
+        "saving the nation through education"
+      ]
+    },
+    {
+      "id": "zunshi",
+      "name": "尊师重道",
+      "type": "CONCEPT",
+      "image": "zunshi.jpg",
+      "sources": [
+        "http://dangshi.people.com.cn/n1/2019/0902/c85037-31330412.html",
+        "https://cpc.people.com.cn/n1/2023/1114/c443712-40117490.html"
+      ],
+      "desc": "一师优良传统。",
+      "image_credit": "示意图（暂无实拍图片）",
+      "image_source": "",
+      "name_en": "Respecting Teachers",
+      "desc_en": "A fine tradition of Hunan First Normal School.",
+      "image_credit_en": "Illustration — no verified photograph available",
+      "aliases": [
+        "Respecting Teachers",
+        "respecting teachers"
+      ]
+    },
+    {
+      "id": "wuzizhishu",
+      "name": "读无字之书",
+      "type": "CONCEPT",
+      "image": "wuzizhishu.jpg",
+      "sources": [
+        "http://paper.people.com.cn/rmzk/html/2019-02/22/content_1910612.htm",
+        "https://www.dswxyjy.org.cn/n1/2024/0315/c423725-40196424.html"
+      ],
+      "desc": "强调社会实践出真知的求学理念。",
+      "aliases": [
+        "无字之书",
+        "Reading the Book Without Words",
+        "book without words"
+      ],
+      "image_credit": "示意图（暂无实拍图片）",
+      "image_source": "",
+      "name_en": "Reading the Book Without Words",
+      "desc_en": "A philosophy of study that stresses that social practice yields true knowledge.",
+      "image_credit_en": "Illustration — no verified photograph available"
+    },
+    {
+      "id": "tiyuzhiyanjiu",
+      "name": "《体育之研究》",
+      "type": "WORK",
+      "image": "tiyuzhiyanjiu.jpg",
+      "sources": [
+        "https://www.dswxyjy.org.cn/n/2015/1026/c222139-27741712.html",
+        "https://tyj.hunan.gov.cn/xxgk/gzdt/sstyxw/200402/t20040201_3461158.html"
+      ],
+      "desc": "1917年毛泽东以“二十八画生”笔名在《新青年》发表的文章。",
+      "aliases": [
+        "体育之研究",
+        "A Study of Physical Education",
+        "study of physical education"
+      ],
+      "image_credit": "图片：Wikimedia Commons《《新青年》杂志》",
+      "image_source": "https://commons.wikimedia.org/wiki/File:La_Jeunesse.jpg",
+      "name_en": "A Study of Physical Education",
+      "desc_en": "An article Mao Zedong published in New Youth in 1917 under the pen name 'Ershibahuasheng'.",
+      "image_credit_en": "Image: Wikimedia Commons — the magazine New Youth"
+    },
+    {
+      "id": "lunlixue",
+      "name": "《伦理学原理》批注",
+      "type": "WORK",
+      "image": "lunlixue.jpg",
+      "sources": [
+        "http://dangshi.people.com.cn/n1/2018/0717/c85037-30152388.html",
+        "https://www.dswxyjy.org.cn/n1/2022/0402/c427167-32391060.html"
+      ],
+      "desc": "杨昌济授课教材。",
+      "aliases": [
+        "伦理学原理",
+        "伦理学原理批注",
+        "Annotations on Principles of Ethics",
+        "principles of ethics"
+      ],
+      "image_credit": "图片：百度图片《百集微纪录红色档案24岁毛泽东读伦理学原理12000余字批注令人惊叹》",
+      "image_source": "ippr_z2C$qAzdH3FAzdH3Fgjof_z&e3Bv6t_z&e3BvgAzdH3Fstjkw5AzdH3Fdad8an8cAzdH3F9vjwcjk9-dj9m-11v1-8vj8-mljcjvc0wvj0_z&e3Bip4s?f=v4",
+      "name_en": "Annotations on Principles of Ethics",
+      "desc_en": "The textbook Yang Changji used for his course.",
+      "image_credit_en": "Image: web search — Mao's annotated copy of the book"
+    }
   ],
   "edges": [
-    {"from": "yangchangji", "to": "mao", "relation": "TEACHER_OF"},
-    {"from": "xuteli", "to": "mao", "relation": "TEACHER_OF"},
-    {"from": "xuteli", "to": "tianhan", "relation": "TEACHER_OF"},
-    {"from": "lijinxi", "to": "mao", "relation": "TEACHER_OF"},
-    {"from": "mao", "to": "caihesen", "relation": "CLASSMATE_OF"},
-    {"from": "mao", "to": "xiaozisheng", "relation": "CLASSMATE_OF"},
-    {"from": "heshuheng", "to": "mao", "relation": "FRIEND_OF"},
-    {"from": "caihesen", "to": "mao", "relation": "FRIEND_OF"},
-    {"from": "xiangjingyu", "to": "caihesen", "relation": "PARTNER_OF"},
-    {"from": "mao", "to": "class8", "relation": "STUDIED_AT"},
-    {"from": "mao", "to": "school", "relation": "STUDIED_AT"},
-    {"from": "mao", "to": "well", "relation": "PRACTICED_AT"},
-    {"from": "mao", "to": "coldbath", "relation": "PARTICIPATED_IN"},
-    {"from": "well", "to": "school", "relation": "LOCATED_IN"},
-    {"from": "class8", "to": "school", "relation": "LOCATED_IN"},
-    {"from": "hall", "to": "school", "relation": "LOCATED_IN"},
-    {"from": "pavilion", "to": "school", "relation": "LOCATED_IN"},
-    {"from": "readingroom", "to": "school", "relation": "LOCATED_IN"},
-    {"from": "chengnan", "to": "school", "relation": "PREDECESSOR_OF"},
-    {"from": "mao", "to": "studytour", "relation": "PARTICIPATED_IN"},
-    {"from": "xiaozisheng", "to": "studytour", "relation": "PARTICIPATED_IN"},
-    {"from": "mao", "to": "nightclass", "relation": "FOUNDED"},
-    {"from": "mao", "to": "xiangjiang", "relation": "FOUNDED"},
-    {"from": "mao", "to": "xinmin_found", "relation": "PARTICIPATED_IN"},
-    {"from": "caihesen", "to": "xinmin_found", "relation": "PARTICIPATED_IN"},
-    {"from": "xiaozisheng", "to": "xinmin_found", "relation": "PARTICIPATED_IN"},
-    {"from": "heshuheng", "to": "xinmin_found", "relation": "PARTICIPATED_IN"},
-    {"from": "mao", "to": "quzhang", "relation": "PARTICIPATED_IN"},
-    {"from": "mao", "to": "tiyuzhiyanjiu", "relation": "WROTE"},
-    {"from": "mao", "to": "lunlixue", "relation": "WROTE"},
-    {"from": "mao", "to": "spirit", "relation": "ADVOCATED"},
-    {"from": "mao", "to": "wuzizhishu", "relation": "ADVOCATED"},
-    {"from": "mao", "to": "jiaoyu", "relation": "ADVOCATED"},
-    {"from": "jingshi", "to": "mao", "relation": "INFLUENCED"},
-    {"from": "shishi", "to": "mao", "relation": "INFLUENCED"},
-    {"from": "shishi", "to": "school", "relation": "MOTTO_OF"},
-    {"from": "zunshi", "to": "mao", "relation": "EMBODIED_BY"},
-    {"from": "exercise", "to": "spirit", "relation": "RELATED_TO"},
-    {"from": "coldbath", "to": "exercise", "relation": "RELATED_TO"},
-    {"from": "mao", "to": "xinmin", "relation": "FOUNDED"},
-    {"from": "caihesen", "to": "xinmin", "relation": "MEMBER_OF"},
-    {"from": "heshuheng", "to": "xinmin", "relation": "MEMBER_OF"}
+    {
+      "from": "yangchangji",
+      "to": "mao",
+      "relation": "TEACHER_OF"
+    },
+    {
+      "from": "xuteli",
+      "to": "mao",
+      "relation": "TEACHER_OF"
+    },
+    {
+      "from": "xuteli",
+      "to": "tianhan",
+      "relation": "TEACHER_OF"
+    },
+    {
+      "from": "lijinxi",
+      "to": "mao",
+      "relation": "TEACHER_OF"
+    },
+    {
+      "from": "mao",
+      "to": "caihesen",
+      "relation": "CLASSMATE_OF"
+    },
+    {
+      "from": "mao",
+      "to": "xiaozisheng",
+      "relation": "CLASSMATE_OF"
+    },
+    {
+      "from": "heshuheng",
+      "to": "mao",
+      "relation": "FRIEND_OF"
+    },
+    {
+      "from": "caihesen",
+      "to": "mao",
+      "relation": "FRIEND_OF"
+    },
+    {
+      "from": "xiangjingyu",
+      "to": "caihesen",
+      "relation": "PARTNER_OF"
+    },
+    {
+      "from": "mao",
+      "to": "class8",
+      "relation": "STUDIED_AT"
+    },
+    {
+      "from": "mao",
+      "to": "school",
+      "relation": "STUDIED_AT"
+    },
+    {
+      "from": "mao",
+      "to": "well",
+      "relation": "PRACTICED_AT"
+    },
+    {
+      "from": "mao",
+      "to": "coldbath",
+      "relation": "PARTICIPATED_IN"
+    },
+    {
+      "from": "well",
+      "to": "school",
+      "relation": "LOCATED_IN"
+    },
+    {
+      "from": "class8",
+      "to": "school",
+      "relation": "LOCATED_IN"
+    },
+    {
+      "from": "hall",
+      "to": "school",
+      "relation": "LOCATED_IN"
+    },
+    {
+      "from": "pavilion",
+      "to": "school",
+      "relation": "LOCATED_IN"
+    },
+    {
+      "from": "readingroom",
+      "to": "school",
+      "relation": "LOCATED_IN"
+    },
+    {
+      "from": "chengnan",
+      "to": "school",
+      "relation": "PREDECESSOR_OF"
+    },
+    {
+      "from": "mao",
+      "to": "studytour",
+      "relation": "PARTICIPATED_IN"
+    },
+    {
+      "from": "xiaozisheng",
+      "to": "studytour",
+      "relation": "PARTICIPATED_IN"
+    },
+    {
+      "from": "mao",
+      "to": "nightclass",
+      "relation": "FOUNDED"
+    },
+    {
+      "from": "mao",
+      "to": "xiangjiang",
+      "relation": "FOUNDED"
+    },
+    {
+      "from": "mao",
+      "to": "xinmin_found",
+      "relation": "PARTICIPATED_IN"
+    },
+    {
+      "from": "caihesen",
+      "to": "xinmin_found",
+      "relation": "PARTICIPATED_IN"
+    },
+    {
+      "from": "xiaozisheng",
+      "to": "xinmin_found",
+      "relation": "PARTICIPATED_IN"
+    },
+    {
+      "from": "heshuheng",
+      "to": "xinmin_found",
+      "relation": "PARTICIPATED_IN"
+    },
+    {
+      "from": "mao",
+      "to": "quzhang",
+      "relation": "PARTICIPATED_IN"
+    },
+    {
+      "from": "mao",
+      "to": "tiyuzhiyanjiu",
+      "relation": "WROTE"
+    },
+    {
+      "from": "mao",
+      "to": "lunlixue",
+      "relation": "WROTE"
+    },
+    {
+      "from": "mao",
+      "to": "spirit",
+      "relation": "ADVOCATED"
+    },
+    {
+      "from": "mao",
+      "to": "wuzizhishu",
+      "relation": "ADVOCATED"
+    },
+    {
+      "from": "mao",
+      "to": "jiaoyu",
+      "relation": "ADVOCATED"
+    },
+    {
+      "from": "jingshi",
+      "to": "mao",
+      "relation": "INFLUENCED"
+    },
+    {
+      "from": "shishi",
+      "to": "mao",
+      "relation": "INFLUENCED"
+    },
+    {
+      "from": "shishi",
+      "to": "school",
+      "relation": "MOTTO_OF"
+    },
+    {
+      "from": "zunshi",
+      "to": "mao",
+      "relation": "EMBODIED_BY"
+    },
+    {
+      "from": "exercise",
+      "to": "spirit",
+      "relation": "RELATED_TO"
+    },
+    {
+      "from": "coldbath",
+      "to": "exercise",
+      "relation": "RELATED_TO"
+    },
+    {
+      "from": "mao",
+      "to": "xinmin",
+      "relation": "FOUNDED"
+    },
+    {
+      "from": "caihesen",
+      "to": "xinmin",
+      "relation": "MEMBER_OF"
+    },
+    {
+      "from": "heshuheng",
+      "to": "xinmin",
+      "relation": "MEMBER_OF"
+    },
+    {
+      "from": "heshuheng",
+      "to": "xinmin_found",
+      "relation": "FOUNDED"
+    },
+    {
+      "from": "xiaozisheng",
+      "to": "xinmin",
+      "relation": "MEMBER_OF"
+    },
+    {
+      "from": "yangchangji",
+      "to": "xinmin",
+      "relation": "INFLUENCED"
+    },
+    {
+      "from": "yangchangji",
+      "to": "lunlixue",
+      "relation": "USED_AS_TEXTBOOK"
+    },
+    {
+      "from": "school",
+      "to": "hnfs",
+      "relation": "PART_OF"
+    }
   ]
 }
